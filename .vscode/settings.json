@@ -1,7 +1,14 @@
 {
-    "java.project.sourcePaths": ["src"],
+    "java.project.sourcePaths": [
+        "src"
+    ],
     "java.project.outputPath": "bin",
-    "java.project.referencedLibraries": [
-        "lib/**/*.jar"
-    ]
+    "java.project.referencedLibraries": {
+        "include": [
+            "d:\\codes\\java\\TextAdventureGameEngine\\lib\\gson-2.13.1.jar"
+        ],
+        "exclude": [
+            "c:\\Program Files\\Java\\jdk-17\\lib\\jrt-fs.jar"
+        ]
+    }
 }
